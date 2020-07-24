@@ -1,3 +1,24 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding:5px;
+    background-color: ivory;
+    
+}
+
+.content {
+
+    min-height: 100%;
+    margin: 0 auto -160px;
+}
+.footercontent {
+    padding: 20px;
+}
+
+.footer, .push {
+    height: -160px;
+}
+
 .header {
     background-color: rgba(25, 126, 160, 0.863);
     text-align: center;
@@ -19,6 +40,41 @@
 }
 
 .topnav a:hover {
-    background-color: greenyellow;
+    background-color: silver;
     color: black
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font:16px Sans-serif;
+}
+h1 {
+    margin:0 0 20px 0;
+}
+
+p {
+    margin: 20px 0 0 0 
+}
+.leftcolumn {
+    float:left;
+    width:75%;
+}
+.rightcolumn {
+    float:right;
+    width: 25%;
+    background-color: aliceblue;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+footer {
+    background-color:rgba(25, 126, 160, 0.863);
+    text-align: left;
+    padding: 20px;
+    line-height: 0px;
 }
