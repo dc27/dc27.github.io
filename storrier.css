@@ -1,5 +1,5 @@
 .header {
-    background-color: deepskyblue;
+    background-color: rgba(25, 126, 160, 0.863);
     text-align: center;
     padding: 20px
 }
@@ -19,6 +19,6 @@
 }
 
 .topnav a:hover {
-    background-color: aquamarine;
+    background-color: greenyellow;
     color: black
 }
