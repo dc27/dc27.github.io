@@ -166,7 +166,7 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-    .column.left {
+    .col.left, .col.right {
         width: 100%;
     }
   }
