@@ -40,7 +40,7 @@ html, body {
     overflow: hidden;
     background-color: darkblue;
 }
-a: {
+a {
     text-decoration:none;
 }
 
