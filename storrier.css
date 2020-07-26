@@ -3,11 +3,9 @@ html, body {
     height:100%;
     width: 100%;
     margin: 0;
-    padding:5px;
-    
+    padding:0px;
 }
 .wrapper{
-    border-radius: 25px;
     height: 100%;
     width: 100%;
     display: table;
@@ -18,8 +16,10 @@ html, body {
     overflow-x: auto;
     width: 100%;
     height: auto;
-    margin:0;
     background-color: slategray;
+}
+.fixed.margins {
+    margin:0px 10%;
 }
 .footercontent {
     padding: 20px;
@@ -32,14 +32,21 @@ html, body {
     border-radius: 25px 25px 0px 0px;
     background-color: slategray;
     text-align: center;
-    padding: 20px
+    padding: 20px;
+    margin:0px 10%;
 }
 
 .topnav {
     overflow: hidden;
     background-color: darkblue;
 }
+a: {
+    text-decoration:none;
+}
 
+a:link, a:visited {
+    color:black;    
+}
 .topnav a{
     float: left;
     display: block;
@@ -47,6 +54,7 @@ html, body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    
 }
 
 .topnav a:hover {
@@ -76,13 +84,13 @@ p {
     flex-basis: 65%;
     float:left;
     background-color: slategray;
-    padding: 0px 0px 0px 10px;
+    padding: 0 0 0 0px;
 }
 .col.blank {
     overflow-y: hidden;
     overflow-x: hidden;
     float:left;
-    padding:10px;
+    padding: 0px;
     flex-basis: 10%;
 }
 
@@ -92,11 +100,20 @@ p {
     flex-basis: 35%;
     background-color: slategray;
     color: black;
+    padding: 0 0 0 0px;
+}
+
+.grid.item {
+    background-color: slategray;
+    color: black;
+    text-align: left;
+    height:100%;
 }
 
 .card {
     border-radius: inherit;
-    padding: 0px 10px 10px 10px;
+    height:inherit;
+    padding: 0px 10px 0px 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
     ;
     background-color: white;
@@ -108,7 +125,6 @@ p {
     ;
     background-color: darkblue;
 }
-
 
 .card.blurb {
     padding: 10px 10px 10px 10px;
@@ -129,10 +145,20 @@ p {
     overflow: auto;
     width: 100%;
     height: inherit;
-    padding: 0px 0px 30px 0px;
+    padding: 0px 0px 0px 0px;
     background-color: slategray;
     gap: 2%;
 }
+.grid.container {
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    column-gap: 20px;
+    row-gap:20px;
+    justify-content: start;
+    background-color: slategray;
+}
+
 .container:after {
     content: "";
     display: table;
@@ -156,12 +182,12 @@ footer {
     text-align: left;
     line-height:  1px;
     padding: 20px;
-    margin:0;
+    margin:0px 10%;
     color: white;
 }
 .img.border {
-    align:right;
-    padding: 30px;
+    text-align:center;
+    padding: 20px;
     border-style: double;
 }
 
