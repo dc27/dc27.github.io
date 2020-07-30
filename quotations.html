@@ -5,95 +5,85 @@
 <meta charset="UTF-8">
 <meta name-"viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="storrier.css">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/4e640246b9.js"></script>
+<script>
+    function myFunction() {
+      var x = document.getElementById("navbar");
+      if (x.className === "navbar") {
+        x.className += " responsive";
+      }
+      else {
+        x.className = "navbar";
+      }
+    }
+</script>
+
 </head>
 <body>
-<div class ="wrapper">
-    
-  <div class="header">
-    <a href="storrier.html" color="black"><h1>Storrier and Donaldson Limited</h1></a><p><h3> Cost Consultancy; Project Coordination; Quantity Surveying</h3>
-  </div>
-    <!-- Push page links to the right; hide on smaller pages-->
-  <div class = "topnav">
-    <div class = "fixed margins">
-      <a href="clients.html" >Clients</a>
-      <a href="experience.html">Experience</a>
-      <a href="gallery.html" >Gallery</a>
-      <a href="services.html">Services</a>
-      <a href="quotations.html">Builder's Quotations</a>
+  <header>
+    <div id="navbar">
+      <div class="margin">
+        <a href="storrier.html">Home</a>
+        <a href="clients.html">Clients</a>
+        <a href="experience.html">Experience</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="services.html">Services</a>
+        <a href="quants.html" class="active">Builder's Quantities</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fas fa-bars"></i>
+        </a>
     </div>
   </div>
-  <div class = "content">
-    <div class = "fixed margins">
-      <div class="container">
-        <div class="col left">
-          <div class="card">
-            <h1>Clients</h1>
-            Storrier and Donaldson have undertaken CC, PC and QS projects for Clients in both the private and public sectors in the construction industry across the UK.
-
-            <p>Our list of clients includes major blue-chip companies, educational institutions, health boards, community-led pulbic projects, local authorities, and clients in leisure in retail. 
-          </div>
-          <p>
-          <div class = "card blurb">
-          </div>
-        </div>
-
-          <div class = "col right">
-            <div class = "card blurb">
-              <h4>Roses Design Award Bronze 2011 Winner</h4>
-              <p>
-              <img src="roses-design-awards-2011.jpg" alt="Roses Design Bronze Award" height= "150px">
-              <p>
-            </div>
-          </div>
-
+</header>
+<main>
+  <div class = "margin">
+    <div class = "content">
+      <h3>Builder's Quantities</h3>
+      <b>For a limited period </b>, we are able to provide builder's quantities for projects based on:
+      <ul>
+      <li>0.12% for projects over £10m</li>
+      <li>0.15% for new build projects between £8m and £10m</li>
+      <li>0.18% for new build projects between £5m and £8m</li>
+      <li>0.20% for new build projects between £3m and £5m</li>
+      </ul>
+      <p>Refurbishment projects, those with sectional completion and smaller projects are subject to agreement of a competitive fee.</p>
+      <p>All values are exclusive of VAT, which will be charged at the prevailing rate</p>
+      <p>Builders’ quantities can be produced on CATO or excel exported files (or your own bespoke system where possible.)</p>
+      <p>Builder’s quantities normally excludes both Services and Structural frame; but these can be incorporated at an agreed additional fee, if required</p>
+      <p>For calculation of fee the gross total value of the project is used. Repeat works can be considered separately for an agreed discount.</p>
+      <p>The values are based on the estimator providing drawings based on pdf or dwg with a specification provided on word or similar document.</p>
+      <p>This offer may be withdrawn without notice and is subject to agreement of terms and conditions including duration and phasing of information.</p>
+      <p>Projects recently completed include New food retail unit with associated external works; new football stadium; university new and refurbishment projects; refurbishment of high quality hotel; new car showroom and sports facility.</p>
+      <p>Documents can be prepared in Trade or Elemental form.</p>
       </div>
-    </div>
+  </div>
+</main>      
+    <footer>
+      <div class="margin">
+        <p> 33a Gordon Street
+        <p> Glasgow
+        <p> G1 3PF
+        <p> 01412722500
+        <p>admin.sanddltd@btconnect.com
+      </div>
+      <div class="empty">
+      </div>
       
-      </div>
-      <div class = "row">
-        <div class = "contact bar">
-          <div class = "fixed margins">
-            <b><i>Contact</b></i>
-          </div>
+        <div class = "img border">
+          <font color = white>RICS 006743</font>
+          <p>
+          <img src="rics.jpg" alt="RICS" height="45px">
         </div>
 
+      <div class="margin">
+        <div class ="img border">
+          <font color = white>CONSTRUCTIONLINE REG. NO: 114927</font>
+          <p> 
+          <img src = "constructionline-logo.svg" height ="45px">
+        </div>
       </div>
-      <div class = "row">
-        <footer class="footer">
-          <div class = "col left">
-          33a Gordon Street <p> Glasgow <p> G1 3PF <p> 01412722500 <p>admin.sanddltd@btconnect.com
-          <p>
-          </div>
-
-          <div class = "col right">
-            <div class = "col left">
-              <div class = "img border">
-                <font color = white>RICS 006743</font>
-                <p>
-                <img src="rics.jpg" alt="RICS" height="45px">
-              </div>
-            <p>
-            </div>
-
-            <div class = "col blank">
-            </div>
-            <div class= "col right">
-              <div class ="img border">
-                <font color = white>CONSTRUCTIONLINE REG. NO: 114927</font>
-                <p>
-                
-                <img src = "constructionline-logo.svg" height ="45px">
-              </div>
-            <p>
-            </div>
-          </div>
-        </footer>
-      </div>
-  </div>
-
-</div>
-
-
+    </footer>
 
 </body>
 </html>
