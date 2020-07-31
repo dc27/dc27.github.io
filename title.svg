@@ -1,0 +1,21 @@
+<svg width="2300" height="300" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="2302" height="302" id="canvas_background" fill="#fff"/>
+  <g id="canvasGrid" display="none">
+   <rect id="svg_3" width="100%" height="100%" x="0" y="0" stroke-width="0" fill="url(#gridpattern)"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect fill="#666666" stroke-width="0" x="94.497294" y="118.000798" width="254.781665" height="78.904653" id="svg_1" rx="10" stroke="#000" transform="rotate(120 221.88812255859375,157.453125) "/>
+  <rect fill="#fff" stroke="#000" stroke-width="1.5" x="1180.5" y="142.453125" width="0" height="1" id="svg_2"/>
+  <rect fill="#666666" stroke-width="0" x="247.497294" y="30.000798" width="254.781665" height="78.904653" id="svg_5" rx="10" stroke="#000"/>
+  <rect fill="#666666" stroke-width="0" x="266.99728" y="206.000798" width="171.781664" height="78.904653" id="svg_9" rx="10" stroke="#000"/>
+  <rect fill="#666666" stroke-width="0" x="335.497279" y="119.000798" width="254.781665" height="78.904653" id="svg_11" rx="10" stroke="#000" transform="rotate(120 462.88812255859375,158.45312499999997) "/>
+  <rect fill="#666666" stroke-width="0" x="26.99728" y="205.000798" width="171.781664" height="78.904653" id="svg_12" rx="10" stroke="#000"/>
+  <text font-style="italic" stroke="#000" transform="matrix(7.9240654872272955,0,0,8.12266205643631,-4299.671201749707,-1356.5045193561853) " xml:space="preserve" text-anchor="start" font-family="'Times New Roman', Times, serif" font-size="24" id="svg_4" y="199.068687" x="612.235446" stroke-width="0" fill="#666666">Storrier &amp; Donaldson</text>
+ </g>
+</svg>

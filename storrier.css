@@ -34,7 +34,7 @@ footer {
 
 .margin {
   margin: 0 3em;
-  height: 100%;
+  height: inherit;
 }
 
 header {
@@ -93,7 +93,7 @@ main {
   margin-top: 30px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
   #navbar a:not(:first-child) {display: none;}
   #navbar a.icon {
       float: right;
@@ -101,7 +101,7 @@ main {
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
   #navbar.responsive {position: relative;}
   #navbar.responsive .icon {
     position: absolute;
@@ -120,6 +120,17 @@ main {
   height: 100%;
 }
 
+.titlebar{
+  margin-right: 0em;
+  vertical-align: top;
+  display: grid;
+  text-align: right;
+}
+
+.caption {
+  text-align: center;
+}
+
 footer {
   display: grid;
   grid-template-columns: auto 1fr auto auto;
@@ -132,4 +143,77 @@ footer {
 .img.border {
   text-align: center;
   padding: 20px;
+}
+
+
+.mySlides {
+  display: none;
+  text-align: center;
+  height: 627px;
+}
+.slideshow.container {
+  display: grid;
+  grid-gap: 0em;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+              "header"
+              "main"
+              "footer";
+  grid-template-rows: 2fr auto 1fr;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.next {
+  right: 4.5em;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+
+.demo {
+  opacity: 0.6;
+}
+
+.active, .demo:hover {
+  opacity: 1;
 }
