@@ -108,11 +108,19 @@ main {
     right: 0;
     top: 0;
 }
+
+
   #navbar.responsive a{
     float: none;
     display: block;
     text-align: left;
   }
+
+  #navbar.responsive a[title~="gallery"] {
+    float:none;
+    display: none;
+
+  } 
 
   .img.border {
     display: none;
